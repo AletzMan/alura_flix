@@ -1,0 +1,102 @@
+.banner {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #0a042e;
+
+    & .banner_picture {
+        position: relative;
+        display: flex;
+        width: 100%;
+
+        & .banner_shadow {
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, #121212, transparent, transparent, #121212),
+                linear-gradient(0deg, #121212, #121212, transparent, #121212);
+            ;
+            position: absolute;
+        }
+
+        & .banner_image {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+.container {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center center;
+    padding: 0 0 4em 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    gap: 0.5em;
+    padding: 0.5em;
+    max-width: 45em;
+
+    & .details_category {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: max-content;
+        background-color: var(--animationColor);
+        padding: 0.25em 0.85em;
+        text-transform: uppercase;
+        font-weight: 700;
+        border-radius: 0.25em;
+        color: var(--fontColor);
+    }
+
+    & .details_title {
+        color: var(--fontColor);
+    }
+
+    & .details_description {
+        color: var(--fontSecondColor);
+        max-lines: 10;
+        text-overflow: ellipsis;
+        text-wrap: stable;
+    }
+
+}
+
+.poster {
+    position: relative;
+    align-self: flex-end;
+    height: 45%;
+    width: 80%;
+    overflow: hidden;
+    border-radius: 0.25em;
+    box-shadow: 0 0 10px 4px var(--animationColor),
+        0 0 10px 4px var(--animationColor) inset;
+    border: 4px solid var(--animationColor);
+
+    & .poster_image {
+        width: 100%;
+        height: 100%;
+        border-radius: 0.25em;
+        object-fit: cover;
+        object-position: center center;
+    }
+
+    & .poster_play {
+        position: absolute;
+        left: calc(50% - 2em);
+        top: calc(50% - 2em);
+        width: 4em;
+        height: 4em;
+        color: var(--fontColor);
+        border-radius: 3em;
+        background-color: var(--animationColor);
+    }
+}

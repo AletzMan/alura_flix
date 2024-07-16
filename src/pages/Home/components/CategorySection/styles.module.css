@@ -1,0 +1,197 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    width: 100svw;
+    margin: 1em 0 0.5em 0;
+    padding: 0.5em;
+
+    & .section_title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: max-content;
+        color: var(--fontColor);
+        padding: 0.1em 0.75em 0.25em 0.75em;
+        border-radius: 0.25em;
+    }
+}
+
+.title_animation {
+    background-color: var(--animationColor);
+}
+
+.title_action {
+    background-color: var(--actionColor);
+}
+
+.title_comedy {
+    background-color: var(--comedyColor);
+}
+
+.movies {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 0.5em;
+    margin: 0.5em 0 0 0;
+    padding: 0 0 1em 0;
+    overflow-x: auto;
+
+    &::-webkit-scrollbar {
+        height: 8px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background-color: var(--fourthColor);
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: var(--primaryColor);
+    }
+}
+
+.movie {
+    position: relative;
+    display: grid;
+    grid-template-rows: 1fr 3em;
+    width: 10em;
+    min-width: 10em;
+    border-radius: 0.35em;
+    overflow: hidden;
+    border: 2px solid var(--fourthColor);
+    transition: all 0.3s ease-in-out;
+
+
+    & .movie_image {
+        width: 100%;
+        object-fit: contain;
+    }
+
+    & .movie_footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.25em;
+        height: 3em;
+        background-color: var(--fourthColor);
+        overflow: hidden;
+    }
+
+    & .movie_shadow {
+        position: absolute;
+        width: 100%;
+        height: calc(100% - 3em);
+        background: linear-gradient(0deg, #000000, transparent, transparent, #000000);
+    }
+
+    & .movie_title {
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding: 0.5em;
+        color: var(--fontColor);
+        font-size: 0.85em;
+        line-height: 1em;
+        text-wrap: balance;
+    }
+
+    & .movie_button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5em;
+        padding: 0.25em 0.15em;
+        min-height: 2.5em;
+        border: none;
+        min-width: 7.5em;
+        font-family: var(--font-family);
+        border-radius: 0.2em;
+        color: var(--fontColor);
+        font-size: 0.6em;
+        background-color: var(--primaryColor);
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+        text-transform: uppercase;
+
+        &:hover {
+            filter: brightness(130%);
+        }
+    }
+
+    & .movie_buttonSecondary {
+        border-radius: 0.25em;
+        border: 1px solid var(--fourthColor);
+        background-color: var(--secondaryColor);
+
+        &:hover {
+            background-color: var(--terciaryColor);
+        }
+    }
+
+    & .movie_icon {
+        width: 1.75em;
+        height: 1.75em;
+    }
+}
+
+.movie_animation {
+    &:hover {
+        border-color: var(--animationColor);
+    }
+}
+
+.movie_action {
+    &:hover {
+        border-color: var(--actionColor);
+    }
+}
+
+.movie_comedy {
+    &:hover {
+        border-color: var(--comedyColor);
+    }
+}
+
+.dialog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    width: 100svw;
+    height: 100svh;
+    border: none;
+    backdrop-filter: blur(2px);
+    background-color: #00000015;
+    z-index: 3;
+
+    & .dialog_message {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: var(--secondaryColor);
+        border: 1px solid var(--fourthColor);
+        padding: 1em 0.5em;
+        width: 90%;
+        max-width: 25em;
+        border-radius: 0.25em;
+    }
+
+    & .dialog_text {
+        color: var(--fontColor);
+        text-align: center;
+        text-wrap: balance;
+
+        &:nth-child(2) {
+            color: #fe7649;
+            margin: 0 0 1em 0;
+        }
+    }
+
+    & .dialog_footer {
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        margin: 1em 0 0.5em 0;
+        border: none;
+    }
+}

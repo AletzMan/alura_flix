@@ -1,0 +1,51 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5em 3em 1em 3em;
+    background: radial-gradient(ellipse at top, var(--secondaryColor), var(--secondaryColor)),
+        radial-gradient(ellipse at bottom, var(--terciaryColor), var(--secondaryColor));
+
+    .section_title {
+        font-size: 1.65em;
+        color: var(--fontColor);
+    }
+
+    .section_subtitle {
+        color: var(--fontSecondColor);
+        font-weight: 400;
+        font-size: 0.9em;
+    }
+
+    .section_create {
+        text-align: start;
+        width: 100%;
+        max-width: 1170px;
+        color: var(--fontColor);
+        font-weight: 500;
+        border-top: 1px solid var(--fourthColor);
+        padding: 0.35em 0.5em;
+        margin: 1.5em 0;
+        border-bottom: 1px solid var(--fourthColor);
+    }
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5em;
+    width: 100%;
+    max-width: 1170px;
+}
+
+.fieldset {
+    display: flex;
+    gap: 1em;
+    border: none;
+}
+
+.buttons {
+    display: flex;
+    gap: 1.5em;
+    border: none;
+}

@@ -1,0 +1,188 @@
+{
+    "action": [
+        {
+            "backdrop_path": "http://image.tmdb.org/t/p/original/wNAhuOZ3Zf84jCIlrcI6JhgmY5q.jpg",
+            "id": "786892",
+            "overview": "En un mundo postapocalíptico donde todo ha perdido su valor, los pocos supervivientes se guían por la ley del más fuerte. Sin aprecio por la vida, lo único que despierta un brutal interés es la gasolina, sinónimo de poder y objetivo de bandas armadas hasta los dientes y sin escrúpulos. En este contexto conoceremos la  historia de la arrebatadoramente despiadada, salvaje y joven Furiosa, quien cae en manos de una horda de motoristas y debe sobrevivir a muchas pruebas mientras reúne los medios para encontrar el camino de vuelta a casa. Precuela de 'Mad Max: Furia en la carretera' (2015).",
+            "poster_path": "http://image.tmdb.org/t/p/w154/tGHUlykWn9V2IIQ4ZaATIAq9VLB.jpg",
+            "release_date": "2024-05-22",
+            "genre": "action",
+            "video": "https://www.youtube.com/watch?v=fkjs_kY1F7Q",
+            "title": "Furiosa: De la saga Mad Max"
+        },
+        {
+            "backdrop_path": "http://image.tmdb.org/t/p/original/fqv8v6AycXKsivp1T5yKtLbGXce.jpg",
+            "id": "653346",
+            "overview": "Ambientada varias generaciones en el futuro tras el reinado de César, en la que los simios son la especie dominante que vive en armonía y los humanos se han visto reducidos a vivir en la sombra. Mientras un nuevo y tiránico líder simio construye su imperio, un joven simio emprende un angustioso viaje que le llevará a cuestionarse todo lo que sabe sobre el pasado y a tomar decisiones que definirán el futuro de simios y humanos por igual.",
+            "poster_path": "http://image.tmdb.org/t/p/w154/kkFn3KM47Qq4Wjhd8GuFfe3LX27.jpg",
+            "release_date": "2024-05-08",
+            "genre": "action",
+            "video": "https://www.youtube.com/watch?v=biCDBKGskG8",
+            "title": "El reino del planeta de los simios"
+        },
+        {
+            "backdrop_path": "http://image.tmdb.org/t/p/original/rrwt0u1rW685u9bJ9ougg5HJEHC.jpg",
+            "id": "280180",
+            "overview": "Cuatro décadas después de su inolvidable primer caso en Beverly Hills, el detective de Detroit Axel Foley vuelve a lo que mejor se le da: resolver crímenes y sembrar el caos.",
+            "poster_path": "http://image.tmdb.org/t/p/w154/kmIaT03NZ58gmc0pQZkFUCqMcf1.jpg",
+            "release_date": "2024-06-20",
+            "genre": "action",
+            "video": "https://www.youtube.com/watch?v=1B0qNY1C_y0",
+            "title": "Superdetective en Hollywood: Axel F."
+        },
+        {
+            "backdrop_path": "http://image.tmdb.org/t/p/original/lA6KdSkCTxwzvqzPqxch997RabQ.jpg",
+            "id": "560016",
+            "overview": "Kid (Dev Patel) es un delincuente que acaba de salir de prisión y vive en la India, intentando adaptarse a un mundo marcado por la avaricia y carente de valores espirituales. Allí luchará por buscar venganza por la muerte de su madre y defender a las clases más desfavorecidas.",
+            "poster_path": "http://image.tmdb.org/t/p/w154/kJhQfICVsZGeYGGRudgcqiD1zQY.jpg",
+            "release_date": "2024-04-03",
+            "genre": "action",
+            "video": "https://www.youtube.com/watch?v=HDTkYCjiBMM",
+            "title": "Monkey Man"
+        },
+        {
+            "backdrop_path": "http://image.tmdb.org/t/p/original/gRApXuxWmO2forYTuTmcz5RaNUV.jpg",
+            "id": "573435",
+            "overview": "Tras escuchar falsas acusaciones sobre su excapitán y mentor Mike y Marcus deciden investigar el asunto incluso volverse los más buscados de ser necesarios",
+            "poster_path": "http://image.tmdb.org/t/p/w154/5jI2vEHJReAx8iFDmhC2O3yW37w.jpg",
+            "release_date": "2024-06-05",
+            "genre": "action",
+            "video": "https://www.youtube.com/watch?v=76U3y2aIfxw",
+            "title": "Bad Boys: Ride or Die"
+        },
+        {
+            "backdrop_path": "http://image.tmdb.org/t/p/original/jvPMJ2zM92jfXxVEFsqP1MMrLaO.jpg",
+            "id": "823464",
+            "overview": "Una aventura cinematográfica completamente nueva, que enfrentará al todopoderoso Kong y al temible Godzilla contra una colosal amenaza desconocida escondida dentro de nuestro mundo. La nueva y épica película profundizará en las historias de estos titanes, sus orígenes y los misterios de Isla Calavera y más allá, mientras descubre la batalla mítica que ayudó a forjar a estos seres extraordinarios y los unió a la humanidad para siempre.",
+            "poster_path": "http://image.tmdb.org/t/p/w154/2YqZ6IyFk7menirwziJvfoVvSOh.jpg",
+            "release_date": "2024-03-27",
+            "genre": "action",
+            "video": "https://www.youtube.com/watch?v=-14bS1e_TrE",
+            "title": "Godzilla y Kong: El nuevo imperio"
+        }
+    ],
+    "comedy": [
+        {
+            "backdrop_path": "http://image.tmdb.org/t/p/original/71mK8XRo1WnZczgRUYSwZJ169Ff.jpg",
+            "id": "1308623",
+            "overview": "Todo marcha bien hasa que 'El Noruego', compra una máquina del tiempo y accidentalmente, cambia el rumbo de la historia de México. Ahora depende de toda familia el viajar al pasado y reparar el daño antes de que sea demasiado tarde.",
+            "poster_path": "http://image.tmdb.org/t/p/w154/9mOEVJCKUWMxTABooY1U0FSwfi6.jpg",
+            "release_date": "2024-06-28",
+            "genre": "comedy",
+            "video": "https://www.youtube.com/watch?v=UiV8ETlWKRY",
+            "title": "La Familia del Barrio: La Película"
+        },
+        {
+            "backdrop_path": "http://image.tmdb.org/t/p/original/jiGoKuVsKzF3isEY1MEDR90Eh1l.jpg",
+            "id": "1019411",
+            "overview": "La fiestera de Florida Rex resulta ser la única esperanza para el programa espacial de la NASA después de que una casualidad la ponga a entrenar con otros candidatos que pueden tener mejores currículos, pero que no tienen su inteligencia, corazón y coraje.",
+            "poster_path": "http://image.tmdb.org/t/p/w154/ehFe4plfzYENM2vzSDuUbC66xtx.jpg",
+            "release_date": "2024-07-04",
+            "genre": "comedy",
+            "video": "https://www.youtube.com/watch?v=Wc6s538Y4K4",
+            "title": "Infiltrada en la NASA"
+        },
+        {
+            "backdrop_path": "http://image.tmdb.org/t/p/original/nL0q3UcNj4MOMluIUE42bc7PtW0.jpg",
+            "id": "1280768",
+            "overview": "Lincoln y los Loud están emocionados de dar la bienvenida a su nueva abuela, Myrtle, a la familia con una celebración de boda tropical. Sin embargo, los festejos se ven interrumpidos cuando un viejo enemigo del pasado aparece en la isla, desatando una serie de eventos inesperados.",
+            "poster_path": "http://image.tmdb.org/t/p/w154/eIIklEb7D9MrRxsb4vyXnm08d0G.jpg",
+            "release_date": "2024-06-21",
+            "genre": "comedy",
+            "video": "https://www.youtube.com/watch?v=3gPGMqXUFl0",
+            "title": "Sin tiempo para espiar: Una peli de Una casa de locos"
+        },
+        {
+            "backdrop_path": "http://image.tmdb.org/t/p/original/wODqakS0jinTUECNS6n4VomQbew.jpg",
+            "id": "967847",
+            "overview": "Después de los eventos de Oklahoma, el equipo de Cazafantasmas regresa a donde comenzó todo: ¡Nueva York! La historia de la familia Spengler continúa con un nuevo grupo de Cazafantasmas.",
+            "poster_path": "http://image.tmdb.org/t/p/w154/fIUqk6Pjo3uf5RiOGT19KQ53ekq.jpg",
+            "release_date": "2024-03-20",
+            "genre": "comedy",
+            "video": "https://www.youtube.com/watch?v=zJ6SoKlPnLA",
+            "title": "Cazafantasmas: Imperio helado"
+        },
+        {
+            "backdrop_path": "http://image.tmdb.org/t/p/original/3P52oz9HPQWxcwHOwxtyrVV1LKi.jpg",
+            "id": "383498",
+            "overview": "Wade Wilson (Ryan Reynolds), mejor conocido como Deadpool, su nombre de batalla e identidad antiheroica, está de regreso con Deadpool 2 y en esta ocasión su misión será salvar a un chico llamado Russell (Julian Dennison) de las manos de un poderoso rival llamado Cable (Josh Brolin). En aras de dar cumplimiento a su tarea el antihéroe formará un grupo al cual pondrá el nombre de X-Force. Secuela de la exitosa película (recaudó más de 780 millones de dólares en todo el mundo) parodia de los superhéroes mutantes del 2016, también protagonizada por Reynolds.",
+            "poster_path": "http://image.tmdb.org/t/p/w154/uoGRi9XjtSC2sqmrwnkglyX8Dr7.jpg",
+            "release_date": "2018-05-10",
+            "genre": "comedy",
+            "video": "https://www.youtube.com/watch?v=20bpjtCbCz0",
+            "title": "Deadpool 2"
+        },
+        {
+            "backdrop_path": "http://image.tmdb.org/t/p/original/r9oTasGQofvkQY5vlUXglneF64Z.jpg",
+            "id": "1029575",
+            "overview": "Dan Morgan es muchas cosas: un marido devoto, un padre cariñoso, un reputado vendedor de coches. También es un exasesino. Y, cuando su pasado alcanza su presente, se ve obligado a embarcar a su ingenua familia en un viaje por carretera sin igual.",
+            "poster_path": "http://image.tmdb.org/t/p/w154/7mEX07jWRYrjarW84sBeFghGMfa.jpg",
+            "release_date": "2023-12-14",
+            "genre": "comedy",
+            "video": "https://www.youtube.com/watch?v=VQ2XpnUvksw",
+            "title": "Plan en familia"
+        }
+    ],
+    "animation": [
+        {
+            "backdrop_path": "http://image.tmdb.org/t/p/original/jr8tSoJGj33XLgFBy6lmZhpGQNu.jpg",
+            "id": "315162",
+            "overview": "El Gato con Botas se embarca en un viaje épico para encontrar al mítico Último Deseo y recuperar sus nueve vidas.",
+            "poster_path": "http://image.tmdb.org/t/p/w154/b5Jb7GoQaqIXy4VEdnQa0UrQZI.jpg",
+            "release_date": "2022-12-07",
+            "genre": "animation",
+            "video": "https://www.youtube.com/watch?v=z-E5pTQVW8w",
+            "title": "El Gato con Botas: El último deseo"
+        },
+        {
+            "backdrop_path": "http://image.tmdb.org/t/p/original/sRvXNDItGlWCqtO3j6wks52FmbD.jpg",
+            "id": "808",
+            "overview": "Hace mucho, mucho tiempo, en una lejanísima ciénaga vivía un intratable ogro llamado Shrek. Pero de repente, un día, su absoluta soledad se ve interrumpida por una invasión de sorprendentes personajes de cuento. Hay ratoncitos ciegos en su comida, un enorme y malísimo lobo en su cama, tres cerditos sin hogar y otros muchos seres increíbles que han sido deportados de su reino por el malvado Lord Farquaad. Para conseguir salvar su terreno, y de paso a sí mismo, Shrek hace un pacto con Farquaad y emprende viaje para conseguir que la preciosa princesa Fiona sea la novia del Lord. En tan importante misión le acompañan un burro chistoso, dispuesto a hacer cualquier cosa por Shrek. Todo, menos estarse calladito. Rescatar a la princesa de una dragona enamoradiza que suelta fuego al respirar va a resultar una tontería comparado con lo que ocurre cuando el oscuro secreto que la joven guardaba es revelado.",
+            "poster_path": "http://image.tmdb.org/t/p/w154/jTQONM7jt1yv2lL972TtmWO0UIZ.jpg",
+            "release_date": "2001-05-18",
+            "genre": "animation",
+            "video": "https://www.youtube.com/watch?v=enHYcGQAB9w",
+            "title": "Shrek"
+        },
+        {
+            "backdrop_path": "http://image.tmdb.org/t/p/original/2XSeKDmIa2KxaiJy4J9e8FrIZhk.jpg",
+            "id": "20352",
+            "overview": "En una alegre urbanización con cuidados jardines rodeados por verjas de madera pintadas de blanco y llenos de rosales, sobresale una casa negra con el césped amarillento. Los vecinos ignoran que debajo de la vivienda hay un enorme escondite secreto. Allí está Gru, rodeado por un pequeño ejército de lacayos, planeando el mayor robo de toda la historia. ¡Va a hacerse con la luna!",
+            "poster_path": "http://image.tmdb.org/t/p/w154/avm0bLWtSoHk9erXAnViuPQ9mqf.jpg",
+            "release_date": "2010-07-08",
+            "genre": "animation",
+            "video": "https://www.youtube.com/watch?v=CyyV_OKUuJU",
+            "title": "Gru. Mi villano favorito"
+        },
+        {
+            "backdrop_path": "http://image.tmdb.org/t/p/original/zMtBbNhROxPf0urHSBoZUnqJEwT.jpg",
+            "id": "901362",
+            "overview": "Cuando Floyd, uno de los hermanos de Branch, es secuestrado por una pareja de maléficas estrellas del pop para aprovecharse de su talento musical, Branch y Poppy tendrán que embarcarse en un viaje tan aterrador como emotivo para reunir a la familia y rescatar a Floyd de un destino aún peor que el desolador olvido de los fans.",
+            "poster_path": "http://image.tmdb.org/t/p/w154/yco6dWR1W3iANUEKxGT0vQRWrJn.jpg",
+            "release_date": "2023-10-12",
+            "genre": "animation",
+            "video": "https://www.youtube.com/watch?v=uIgGUb5PQLo",
+            "title": "Trolls 3: Todos juntos"
+        },
+        {
+            "backdrop_path": "http://image.tmdb.org/t/p/original/6YInbRTk39ckuLYFmUgBCKcKNjb.jpg",
+            "id": "976573",
+            "overview": "En una ciudad donde los residentes del fuego, el agua, la tierra y el aire viven juntos, una joven apasionada y un chico que se deja llevar por la corriente descubrirán algo elemental: cuánto tienen en común.",
+            "poster_path": "http://image.tmdb.org/t/p/w154/d79DeKDCgFOM23O8Dr6MELZVooY.jpg",
+            "release_date": "2023-06-14",
+            "genre": "animation",
+            "video": "https://www.youtube.com/watch?v=v8SMo5Ln-Rg",
+            "title": "Elemental"
+        },
+        {
+            "backdrop_path": "http://image.tmdb.org/t/p/original/ep1urICLqtwwV1sTPHP9WXV4Uto.jpg",
+            "id": "585083",
+            "overview": "Drac y la pandilla vuelven, como nunca los habías visto antes en Hotel Transilvania: Transformanía. Volveremos a encontrarnos con nuestros monstruos favoritos en una aventura completamente nueva en la que Drac se enfrentará a una de las situaciones más aterradoras vividas hasta el momento. Cuando el misterioso invento de Van Helsing, el \"Rayo Monstrificador\", se vuelve totalmente fuera de control, Drac y sus monstruosos amigos se transforman en humanos, ¡y Johnny se convierte en un monstruo!",
+            "poster_path": "http://image.tmdb.org/t/p/w154/xNF8AxJc966FWk4SYqXxGHaZLHZ.jpg",
+            "release_date": "2022-01-31",
+            "genre": "animation",
+            "video": "https://www.youtube.com/watch?v=fKKL6aGwybHg",
+            "title": "Hotel Transilvania: Transformanía"
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+:root {
+  --font-family: Jost, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --primaryColor: #bb0438;
+  --secondaryColor: #0e1217;
+  --terciaryColor: #1c2631;
+  --fourthColor: #2a384a;
+  --fontColor: #EFF2F1;
+  --fontSecondColor: rgb(200, 209, 192);
+  --animationColor: #419d13;
+  --actionColor: #d0990c;
+  --comedyColor: #0cd0ca;
+
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--font-family);
+}
+
+
+
+body {
+  width: 100svw;
+  overflow: hidden;
+  height: 100svh;
+  background: radial-gradient(ellipse at top, var(--terciaryColor), var(--secondaryColor)),
+    radial-gradient(ellipse at bottom, var(--secondaryColor), var(--fourthColor));
+}

@@ -1,0 +1,116 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 5em;
+    padding: 0 1em;
+    background-color: var(--terciaryColor);
+    border-bottom: 1px solid var(--fourthColor);
+
+    & .header_buttons {
+        display: flex;
+        gap: 1em;
+    }
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.35em 0.75em;
+    min-width: 9.5em;
+    border-radius: 0.25em;
+    font-weight: 600;
+    font-size: 0.8em;
+    font-family: var(--font-family);
+    border: 1px solid var(--primaryColor);
+    text-decoration: none;
+    color: var(--fontColor);
+    background-color: var(--primaryColor);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        filter: brightness(125%);
+    }
+}
+
+.button_secondary {
+    color: var(--fontColor);
+    background-color: var(--secondaryColor);
+    border-color: var(--fourthColor);
+
+    &:hover {
+        background-color: var(--terciaryColor);
+    }
+
+}
+
+.fieldset {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: none;
+
+    & .fieldset_label {
+        font-size: 0.75em;
+        color: var(--comedyColor);
+    }
+
+    & .fieldset_input {
+        padding: 0.35em 0.5em;
+        font-size: 0.9em;
+        border-radius: 0.25em;
+        border: 1px solid var(--fourthColor);
+        font-family: var(--font-family);
+        background-color: var(--terciaryColor);
+        color: var(--fontColor);
+        resize: vertical;
+        max-height: 6em;
+
+        &:focus {
+            outline: 2px solid var(--buttonColor);
+        }
+    }
+
+    .fieldset_inputError {
+        border: 1px dashed #c50101;
+    }
+
+
+    & .fieldset_error {
+        position: absolute;
+        bottom: -1.9em;
+        background-color: #c50101;
+        max-width: max-content;
+        font-size: 0.75em;
+        padding: 0.1em 0.35em;
+        border-radius: 0.25em;
+        color: var(--fontColor);
+        transform: translateY(-1em);
+        opacity: 0;
+
+        &::before {
+            position: absolute;
+            top: -0.5em;
+            content: "";
+            border-left: 8px solid transparent;
+            border-right: 8px solid transparent;
+            border-bottom: 8px solid #c50101;
+        }
+    }
+
+    & .fieldset_errorView {
+        animation: error 0.3s ease-in-out both;
+    }
+
+}
+
+@keyframes error {
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

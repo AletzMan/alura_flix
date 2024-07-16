@@ -2,7 +2,7 @@
 
 ![Imagen del Proyecto](https://raw.githubusercontent.com/AletzMan/ImagesStorage/main/Screenshot_aluraflix.webp)
 
-AluraFlix es una aplicación desarrollada como parte del challenge de React con Vite del programa ONE (Oracle Next Education) de Alura. Esta aplicación permite a los usuarios explorar, agregar, editar y eliminar videos en diferentes categorías.
+AluraFlix es una aplicación desarrollada como parte del challenge de React con Vite del programa ONE (Oracle Next Education). Esta aplicación permite a los usuarios explorar, agregar, editar y eliminar videos en diferentes categorías.
 
 ## Características
 

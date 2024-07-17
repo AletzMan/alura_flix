@@ -58,7 +58,58 @@ npm run dev
 
 La aplicación estará disponible en http://localhost:5173.
 
+## Configuración de la API con json-server
 
+Para poder probar la aplicación, necesitas ejecutar json-server con un archivo db.json. Sigue estos pasos:
+
+1. Instala json-server de manera global:
+```bash
+npm install -g json-server
+```
+2. Crea un archivo db.json en el directorio raíz del proyecto con el siguiente contenido de ejemplo:
+```bash
+{
+    "action": [
+        {
+             "title": "Furiosa: De la saga Mad Max",
+             "poster_path": "http://image.tmdb.org/t/p/w154/tGHUlykWn9V2IIQ4ZaATIAq9VLB.jpg",
+             "overview": "En un mundo postapocalíptico donde todo ha perdido su valor.",
+             "backdrop_path": "http://image.tmdb.org/t/p/original/wNAhuOZ3Zf84jCIlrcI6JhgmY5q.jpg",
+             "video": "https://www.youtube.com/watch?v=fkjs_kY1F7Q",
+             "genre": "action",
+             "id": "786892"
+        }
+    ],
+"comedy": [
+        {
+             "title": "La Familia del Barrio: La Película",
+             "poster_path": "http://image.tmdb.org/t/p/w154/9mOEVJCKUWMxTABooY1U0FSwfi6.jpg",
+             "overview": "Todo marcha bien hasa que 'El Noruego', compra una máquina del tiempo.",
+             "backdrop_path": "http://image.tmdb.org/t/p/original/71mK8XRo1WnZczgRUYSwZJ169Ff.jpg",
+             "video": "https://www.youtube.com/watch?v=UiV8ETlWKRY",
+             "genre": "comedy",
+             "id": "1308623"
+        }
+    ],
+"animation": [
+        {
+             "title": "Shrek",
+             "poster_path": "[http://image.tmdb.org/t/p/w154/9mOEVJCKUWMxTABooY1U0FSwfi6.jpg](http://image.tmdb.org/t/p/w154/jTQONM7jt1yv2lL972TtmWO0UIZ.jpg)",
+             "overview": "Hace mucho, mucho tiempo, en una lejanísima ciénaga vivía un intratable.",
+             "backdrop_path": "http://image.tmdb.org/t/p/original/sRvXNDItGlWCqtO3j6wks52FmbD.jpg",
+             "video": "https://www.youtube.com/watch?v=enHYcGQAB9w",
+             "genre": "animation",
+             "id": "808"
+        }
+    ]
+}
+```
+3. Ejecuta json-server:
+   ```bash
+   json-server --watch db.json --port 3030
+    ```
+
+La API estará disponible en http://localhost:3030.
 
 ## Contribución
 

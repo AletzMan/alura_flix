@@ -5,8 +5,10 @@ import styles from "./styles.module.css"
 import { DeleteIcon, EditIcon } from "../../../../components/Logos"
 import { Button } from "../../../../components/Button"
 import { FormEdit } from "../FormEdit/FormEdit"
+import { useSnackbar } from "notistack"
 
 export function CategorySection(props) {
+    const { enqueueSnackbar } = useSnackbar()
     const [movies, setMovies] = useState([])
     const [selectMovie, setSelectMovie] = useState({ id: "", title: "", poster_path: "", overview: "", release_date: "", backdrop_path: "", video: "", genre: "" })
     const [open, setOpen] = useState(false)
@@ -19,7 +21,7 @@ export function CategorySection(props) {
             setMovies(data)
         }
         GetMovies()
-    }, [open])
+    }, [open, openEdit])
 
     const HandleOpen = (movie) => {
         setSelectMovie({ id: movie.id, title: movie.title })
@@ -32,6 +34,7 @@ export function CategorySection(props) {
         })
         if (response.ok) {
             setOpen(false)
+            enqueueSnackbar(`Película '${selectMovie.title}' eliminada correctamente`, { variant: "success" })
         }
     }
 
@@ -42,7 +45,7 @@ export function CategorySection(props) {
 
     return (
         <>
-            <section className={styles.section}>
+            <section className={styles.section} >
                 <h2 className={`${styles.section_title}  ${props.category === "animation" && styles.title_animation} ${props.category === "action" && styles.title_action} ${props.category === "comedy" && styles.title_comedy}`}>{props.title}</h2>
                 <div className={styles.movies}>
                     {movies.map(movie => (

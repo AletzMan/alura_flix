@@ -1,12 +1,10 @@
 /* eslint-disable react/prop-types */
-//import { useState } from "react"
 import { Button } from "../../../../components/Button"
 import { ComboBox } from "../../../../components/ComboBox"
 import { CloseIcon } from "../../../../components/Logos"
 import { TextArea } from "../../../../components/TextArea"
 import { TextBox } from "../../../../components/TextBox"
 import styles from "./styles.module.css"
-//import { isValidURL } from "../../../../utils/helpers"
 import { useValidationForm } from "../../../../hooks/useValidationForm"
 
 export function FormEdit(props) {

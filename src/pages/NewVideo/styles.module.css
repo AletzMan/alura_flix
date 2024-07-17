@@ -2,7 +2,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1.5em 3em 1em 3em;
+    height: calc(100svh - 5em);
+    overflow-y: auto;
     background: radial-gradient(ellipse at top, var(--secondaryColor), var(--secondaryColor)),
         radial-gradient(ellipse at bottom, var(--terciaryColor), var(--secondaryColor));
 
@@ -14,12 +15,14 @@
     .section_subtitle {
         color: var(--fontSecondColor);
         font-weight: 400;
+        padding: 0 1em;
+        text-align: center;
         font-size: 0.9em;
     }
 
     .section_create {
         text-align: start;
-        width: 100%;
+        width: 90%;
         max-width: 1170px;
         color: var(--fontColor);
         font-weight: 500;
@@ -34,6 +37,9 @@
     display: flex;
     flex-direction: column;
     gap: 2.5em;
+    height: 100%;
+    padding: 1.5em 3em 1em 3em;
+
     width: 100%;
     max-width: 1170px;
 }
@@ -42,6 +48,12 @@
     display: flex;
     gap: 1em;
     border: none;
+}
+
+@media (width < 500px) {
+    .fieldset {
+        flex-direction: column;
+    }
 }
 
 .buttons {

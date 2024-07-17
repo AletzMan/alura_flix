@@ -70,6 +70,7 @@
 
 }
 
+
 .poster {
     position: relative;
     align-self: flex-end;
@@ -98,5 +99,23 @@
         color: var(--fontColor);
         border-radius: 3em;
         background-color: var(--animationColor);
+    }
+}
+
+@media (width < 500px) {
+    .details_title {
+        font-size: 1em;
+    }
+
+    .details_description {
+        font-size: 0.8em;
+    }
+
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    .banner {
+        display: none;
     }
 }
